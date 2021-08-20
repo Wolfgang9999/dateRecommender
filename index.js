@@ -111,7 +111,7 @@ app.post('/dateOptions', (req, res) => {
                 if (rating)
                     data["rating"] = rating
                 if (availableCuisine.length)
-                    data["cuisine"] = availableCuisine
+                    data["preferences"] = availableCuisine
                 apiResponse.push(data)
 
             }
